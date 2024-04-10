@@ -2,7 +2,6 @@ package br.ifba.inf011.model.protocolos.aplicacao.http;
 
 import br.ifba.inf011.model.MessageRequest;
 import br.ifba.inf011.model.protocolos.aplicacao.AbstractMessageData;
-import br.ifba.inf011.model.protocolos.aplicacao.ftp.FTPMessageResponse;
 import br.ifba.inf011.model.prototype.Prototype;
 
 public class HTTPMessageRequest extends AbstractMessageData implements MessageRequest{

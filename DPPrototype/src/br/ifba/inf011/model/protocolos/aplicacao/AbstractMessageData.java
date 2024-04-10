@@ -9,9 +9,9 @@ public abstract class AbstractMessageData implements MessageRequest{
 	private MessageData data;
 
 
-	public AbstractMessageData(AbstractMessageData data) {
-//		this.data = (MessageData) data.prototipar();
-		this.data = new MessageData();
+	public AbstractMessageData(AbstractMessageData messageData) {
+		this.data = (MessageData) messageData.data.prototipar();
+//		this.data = new MessageData();
 	}	
 	
 	public AbstractMessageData() {

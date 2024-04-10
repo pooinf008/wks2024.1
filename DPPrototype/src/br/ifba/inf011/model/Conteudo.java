@@ -9,6 +9,10 @@ public class Conteudo implements Prototype{
 	
 	private List<Character> conteudo;
 	
+	public Conteudo() {
+		this.conteudo = new ArrayList<Character>();
+	}
+	
 	public Conteudo(Conteudo outro) {
 		this.conteudo = new ArrayList<Character>();
 		for(Character c : outro.conteudo)
