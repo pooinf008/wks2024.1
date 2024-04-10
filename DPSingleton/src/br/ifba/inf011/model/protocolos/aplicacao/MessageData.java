@@ -13,11 +13,12 @@ public class MessageData implements Prototype{
 	
 	public MessageData(MessageData messageData) {
 		this.header = new HashMap<String, String>(messageData.header);
-		this.body =  (Conteudo)(messageData.body).prototipar();
+		this.body =  (Conteudo)messageData.body.prototipar();
 	}
 
 	public MessageData() {
 		this.header = new HashMap<String, String>();
+		this.body = new Conteudo();
 	}
 
 	public void addHeader(String key, String value) {

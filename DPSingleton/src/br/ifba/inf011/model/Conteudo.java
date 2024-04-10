@@ -8,6 +8,10 @@ import br.ifba.inf011.model.prototype.Prototype;
 public class Conteudo implements Prototype{
 	
 	private List<Character> conteudo;
+
+	public Conteudo() {
+		this.conteudo = new ArrayList<Character>();
+	}	
 	
 	public Conteudo(Conteudo outro) {
 		this.conteudo = new ArrayList<Character>();
