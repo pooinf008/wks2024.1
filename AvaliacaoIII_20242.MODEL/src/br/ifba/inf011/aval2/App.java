@@ -37,7 +37,7 @@ public class App {
 		try {
 			b1.escrever(user01, "CINCO");
 		}catch(IllegalAccessException ex) {
-			System.out.println("NÃO FOI POSSIVEL ESCREVER EM A1");
+			System.out.println("NÃO FOI POSSIVEL ESCREVER EM B1");
 		}
 			
 		System.out.println(raiz.getNome() + ": " + raiz.getTamanho() + "K");
@@ -45,13 +45,13 @@ public class App {
 		try {
 			b1.escrever(user01, "CINCO+2");
 		}catch(IllegalAccessException ex) {
-			System.out.println("NÃO FOI POSSIVEL ESCREVER EM A1");
+			System.out.println("NÃO FOI POSSIVEL ESCREVER EM B1");
 		}
 		
 		try {
 			System.out.println("B1: " + b1.ler(user01));
 		} catch (IllegalAccessException e) {
-			System.out.println("NÃO FOI POSSIVEL LER DE A1");
+			System.out.println("NÃO FOI POSSIVEL LER DE B1");
 		}			
 		
 		System.out.println(raiz.getNome() + ": " + raiz.getTamanho() + "K");
